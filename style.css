@@ -1,0 +1,73 @@
+body{
+    background-image: url(images/office.jpg) ;
+    background-size: cover;
+}
+h1{
+    text-align:center;
+    color: black;
+    background: rgba(0,0,0,0.4);
+    padding: 13px;
+}
+.registration{
+    margin: auto;
+    width: 50%;
+    text-align:center;
+    color: #75191e;
+    background: rgba(0,0,0,0.4);
+    border: 2px solid whitesmoke;
+    padding: 15px;
+}
+h2{
+    padding: 4px;
+}
+#name{
+    width: 45%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: 0;
+    font-family: serif;
+    font-size: 18px;
+    background: none;
+    color: white;
+}
+#number{
+    width: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: 0;
+    font-family: serif;
+    font-size: 18px;
+    background: none;
+    color: white;
+}
+#num{
+    padding: 3px 0px;
+    border-radius: 2px;
+    border: 2px solid white;
+    outline: 0;
+    background:none;
+    color: black;
+
+}
+#check{
+    font-family: serif;
+    font-size: 18px;
+}
+#sub{
+    width: 150px;
+    padding: 5px;
+    border: 2px solid white;
+    outline: 0;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+#sub:hover{
+    background: #75191e;
+}
+::placeholder{
+    color: white;
+     
+}
